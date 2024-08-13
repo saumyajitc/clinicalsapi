@@ -1,0 +1,21 @@
+{
+  "name": "clinicalsapi",
+  "version": "1.0.0",
+  "description": "This is the backend api collection for the clinicals project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production nodemon --exec babel-node src/server.js",
+    "start:dev": "NODE_ENV=staging nodemon --exec babel-node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  }
+}
